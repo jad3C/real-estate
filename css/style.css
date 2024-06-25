@@ -922,7 +922,8 @@ section.agents {
 
   .nav.fixedNav {
     top: 106px;
-    left: -10px;
+    left: 0;
+    inset-inline-start: -22px;
     width: 100vw;
     z-index: unset;
     border-radius: 0;
