@@ -922,7 +922,7 @@ section.agents {
 
   .nav.fixedNav {
     top: 106px;
-    left: -22px;
+    left: -10px;
     width: 100vw;
     z-index: unset;
     border-radius: 0;
