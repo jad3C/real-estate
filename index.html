@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Estate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__dark-bg">
+            <div class="header__content">
+                <div class="logo">
+                    <a class="logo__text" href="/"><span class="logo__orange">Luxury</span> Estate</a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list primary">
+                        <li class="nav__item"><a class="nav__link active--link" href="#home">Home</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#featured">Featured</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#agents">Agents</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="nav__list secondary">
+                        <li class="nav__item"><a class="nav__link" href="#javascript;">Log In</a></li>
+                        <li class="nav__item"><a class="nav__link nav--btn" href="#javascript;">Sign Up</a></li>
+                    </ul>
+                </nav>
+                <div class="user-signup-login">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+
+        <section id="home" class="hero">
+
+            <div class="container">
+
+                <div class="hero__content glass">
+
+                    <form action="">
+                        <h3 class="hero__h3">Find your perfect home</h3>
+
+                        <div class="buttons--container">
+                            <button class="hero__btn" type="button">For Rent</button>
+                            <button class="hero__btn" type="button">For Sale</button>
+                        </div>
+
+                        <div class="input--box">
+                            <input type="search" name="" placeholder="Neighborhood" id="">
+                            <input type="search" name="" placeholder="City" id="">
+                            <select name="" id="">
+                                <option value="" disabled hidden selected>Minimum Price</option>
+                                <option value="$3500">$3500</option>
+                                <option value="$7000">$7000</option>
+                                <option value="$11000">$11000</option>
+                                <option value="$16000">$16000</option>
+                                <option value="$20000">$20000</option>
+                            </select>
+
+                            <select name="" id="">
+                                <option value="" disabled hidden selected>Maximum Price</option>
+                                <option value="$25000">$25000</option>
+                                <option value="$31000">$31000</option>
+                                <option value="$37000">$37000</option>
+                                <option value="$42000">$42000</option>
+                                <option value="$46000">$46000</option>
+                            </select>
+
+                            <select name="" id="">
+                                <option value="" disabled hidden selected>Property Status</option>
+                                <option value="Ready To Move">Ready To Move</option>
+                                <option value="Under Construction">Under Construction</option>
+                                <option value="Furnished">Furnished</option>
+                                <option value="Semi-Furnished">Semi-Furnished</option>
+                                <option value="Unfurnished">Unfurnished</option>
+                            </select>
+
+                            <select name="" id="">
+                                <option value="" disabled hidden selected>Property Type</option>
+                                <option value="Flat">Flat</option>
+                                <option value="House">House</option>
+                                <option value="Shop">Shop</option>
+                                <option value="Warehouse">Warehouse</option>
+                                <option value="Land">Land</option>
+                            </select>
+
+                            <select name="" id="">
+                                <option value="" disabled hidden selected>BHK</option>
+                                <option value="1 BHK">1 BHK</option>
+                                <option value="2 BHK">2 BHK</option>
+                                <option value="3 BHK">3 BHK</option>
+                                <option value="4 BHK">4 BHK</option>
+                                <option value="5 BHK">5 BHK</option>
+                            </select>
+
+                            <select name="" id="">
+                                <option value="" disabled hidden selected>Amenities</option>
+                                <option value="Parking Space">Parking Space</option>
+                                <option value="Swimming Pool">Swimming Pool</option>
+                                <option value="Playground">Playground</option>
+                                <option value="Security">Security</option>
+                                <option value="All">All</option>
+                            </select>
+
+                            <select name="" id="">
+                                <option value="" disabled hidden selected>Bedrooms</option>
+                                <option value="1 Bedroom">1 Bedroom</option>
+                                <option value="2 Bedroom">2 Bedroom</option>
+                                <option value="3 Bedroom">3 Bedroom</option>
+                                <option value="4 Bedroom">4 Bedroom</option>
+                                <option value="5 Bedroom">5 Bedroom</option>
+                            </select>
+
+                            <select name="" id="">
+                                <option value="" disabled hidden selected>Bathrooms</option>
+                                <option value="1 Bathroom">1 Bathroom</option>
+                                <option value="2 Bathroom">2 Bathroom</option>
+                                <option value="3 Bathroom">3 Bathroom</option>
+                                <option value="4 Bathroom">4 Bathroom</option>
+                                <option value="5 Bathroom">5 Bathroom</option>
+                            </select>
+                        </div>
+
+                        <input class="hero__btn search--btn" type="submit" value="Search Property">
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="services__heading">Our Services</h2>
+                <p class="services__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sit sunt nobis
+                    tenetur eligendi nam veniam dolorum obcaecati accusantium amet.</p>
+                <div class="box--container">
+                    <div class="box">
+                        <img class="box__image" src="images/icon1.png" alt="house on the hand icon">
+                        <h3 class="box__sub--heading">Buying Home</h3>
+                        <p class="box__text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem unde porro laboriosam
+                            mollitia iste modi nihil recusandae repellendus pariatur blanditiis.
+                        </p>
+                        <button class="box__btn">Learn More</button>
+                    </div>
+
+                    <div class="box">
+                        <img class="box__image" src="images/icon2.png" alt="house with a dollar sign on top icon">
+                        <h3 class="box__sub--heading">Renting Home</h3>
+                        <p class="box__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis fugiat tempore
+                            cumque nobis eveniet vitae asperiores sequi, odio modi?
+                        </p>
+                        <button class="box__btn">Learn More</button>
+                    </div>
+
+                    <div class="box">
+                        <img class="box__image" src="images/icon3.png" alt="shake hands with a background house icon">
+                        <h3 class="box__sub--heading">Selling Home</h3>
+                        <p class="box__text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nesciunt numquam debitis
+                            dicta harum a velit tempore iste id quis.
+                        </p>
+                        <button class="box__btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured" id="featured">
+            <div class="container">
+                <h2 class="featured__heading">Featured Properties</h2>
+
+                <div class="box--container">
+
+                    <div class="box">
+                        <div class="image--container">
+                            <img src="images/estate1.jpg" alt="estate 1" class="box__image">
+
+                            <div class="box__info">
+                                <h3>4 Days Ago</h3>
+                                <h3>For Rent</h3>
+                            </div>
+
+                            <div class="box__icons">
+                                <a href="#" class="fas fa-film">
+                                    <h3>3</h3>
+                                </a>
+                                <a href="#" class="fas fa-camera">
+                                    <h3>7</h3>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box__content">
+                            <div class="box__price">
+                                <h3>23,000 / mo</h3>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-envelope"></a>
+                                <a href="#" class="fas fa-phone"></a>
+                            </div>
+
+                            <div class="box__locations">
+                                <h3>Modern Apartments</h3>
+                                <p>Atlanta, GA</p>
+                            </div>
+
+                            <div class="box__details">
+                                <h3><i class="fas fa-expand"></i>3100 Sq Ft</h3>
+                                <h3><i class="fas fa-bed"></i>5 Beds</h3>
+                                <h3><i class="fas fa-bath"></i>4 Bathroom</h3>
+                            </div>
+
+
+                            <div class="featured--buttons">
+                                <a href="#" class="featured--btn">Request Info</a>
+                                <a href="#" class="featured--btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image--container">
+                            <img src="images/estate2.jpg" alt="estate 2" class="box__image">
+
+                            <div class="box__info">
+                                <h3>2 Days Ago</h3>
+                                <h3>For Sale</h3>
+                            </div>
+
+                            <div class="box__icons">
+                                <a href="#" class="fas fa-film">
+                                    <h3>4</h3>
+                                </a>
+                                <a href="#" class="fas fa-camera">
+                                    <h3>9</h3>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box__content">
+                            <div class="box__price">
+                                <h3>2,500,000</h3>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-envelope"></a>
+                                <a href="#" class="fas fa-phone"></a>
+                            </div>
+
+                            <div class="box__locations">
+                                <h3>Modern Apartments</h3>
+                                <p>Los Angeles, CA</p>
+                            </div>
+
+                            <div class="box__details">
+                                <h3><i class="fas fa-expand"></i>3200 Sq Ft</h3>
+                                <h3><i class="fas fa-bed"></i>5 Beds</h3>
+                                <h3><i class="fas fa-bath"></i>5 Bathroom</h3>
+                            </div>
+
+
+                            <div class="featured--buttons">
+                                <a href="#" class="featured--btn">Request Info</a>
+                                <a href="#" class="featured--btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image--container">
+                            <img src="images/estate3.jpg" alt="estate 3" class="box__image">
+
+                            <div class="box__info">
+                                <h3>5 Days Ago</h3>
+                                <h3>For Rent</h3>
+                            </div>
+
+                            <div class="box__icons">
+                                <a href="#" class="fas fa-film">
+                                    <h3>5</h3>
+                                </a>
+                                <a href="#" class="fas fa-camera">
+                                    <h3>14</h3>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box__content">
+                            <div class="box__price">
+                                <h3>27,000 / mo</h3>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-envelope"></a>
+                                <a href="#" class="fas fa-phone"></a>
+                            </div>
+
+                            <div class="box__locations">
+                                <h3>Modern Apartments</h3>
+                                <p>Chicago, IL</p>
+                            </div>
+
+                            <div class="box__details">
+                                <h3><i class="fas fa-expand"></i>3100 Sq Ft</h3>
+                                <h3><i class="fas fa-bed"></i>5 Beds</h3>
+                                <h3><i class="fas fa-bath"></i>4 Bathroom</h3>
+                            </div>
+
+
+                            <div class="featured--buttons">
+                                <a href="#" class="featured--btn">Request Info</a>
+                                <a href="#" class="featured--btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image--container">
+                            <img src="images/estate4.jpg" alt="estate 4" class="box__image">
+
+                            <div class="box__info">
+                                <h3>1 Day Ago</h3>
+                                <h3>For Rent</h3>
+                            </div>
+
+                            <div class="box__icons">
+                                <a href="#" class="fas fa-film">
+                                    <h3>7</h3>
+                                </a>
+                                <a href="#" class="fas fa-camera">
+                                    <h3>12</h3>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box__content">
+                            <div class="box__price">
+                                <h3>31,000 / mo</h3>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-envelope"></a>
+                                <a href="#" class="fas fa-phone"></a>
+                            </div>
+
+                            <div class="box__locations">
+                                <h3>Modern Apartments</h3>
+                                <p>Boston, MA</p>
+                            </div>
+
+                            <div class="box__details">
+                                <h3><i class="fas fa-expand"></i>3300 Sq Ft</h3>
+                                <h3><i class="fas fa-bed"></i>6 Beds</h3>
+                                <h3><i class="fas fa-bath"></i>5 Bathroom</h3>
+                            </div>
+
+
+                            <div class="featured--buttons">
+                                <a href="#" class="featured--btn">Request Info</a>
+                                <a href="#" class="featured--btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image--container">
+                            <img src="images/estate5.jpg" alt="estate 5" class="box__image">
+
+                            <div class="box__info">
+                                <h3>6 Days Ago</h3>
+                                <h3>For Sale</h3>
+                            </div>
+
+                            <div class="box__icons">
+                                <a href="#" class="fas fa-film">
+                                    <h3>8</h3>
+                                </a>
+                                <a href="#" class="fas fa-camera">
+                                    <h3>17</h3>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box__content">
+                            <div class="box__price">
+                                <h3>3,500,000</h3>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-envelope"></a>
+                                <a href="#" class="fas fa-phone"></a>
+                            </div>
+
+
+                            <div class="box__locations">
+                                <h3>Modern Apartments</h3>
+                                <p>Louisville, KY</p>
+                            </div>
+
+                            <div class="box__details">
+                                <h3><i class="fas fa-expand"></i>3400 Sq Ft</h3>
+                                <h3><i class="fas fa-bed"></i>7 Beds</h3>
+                                <h3><i class="fas fa-bath"></i>6 Bathroom</h3>
+                            </div>
+
+
+                            <div class="featured--buttons">
+                                <a href="#" class="featured--btn">Request Info</a>
+                                <a href="#" class="featured--btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image--container">
+                            <img src="images/estate6.jpg" alt="estate 6" class="box__image">
+
+                            <div class="box__info">
+                                <h3>7 Days Ago</h3>
+                                <h3>For Sale</h3>
+                            </div>
+
+                            <div class="box__icons">
+                                <a href="#" class="fas fa-film">
+                                    <h3>10</h3>
+                                </a>
+                                <a href="#" class="fas fa-camera">
+                                    <h3>19</h3>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box__content">
+                            <div class="box__price">
+                                <h3>3,900,000</h3>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-envelope"></a>
+                                <a href="#" class="fas fa-phone"></a>
+                            </div>
+
+
+                            <div class="box__locations">
+                                <h3>Modern Apartments</h3>
+                                <p>New York City, NY</p>
+                            </div>
+
+                            <div class="box__details">
+                                <h3><i class="fas fa-expand"></i>3500 Sq Ft</h3>
+                                <h3><i class="fas fa-bed"></i>10 Beds</h3>
+                                <h3><i class="fas fa-bath"></i>8 Bathroom</h3>
+                            </div>
+
+
+                            <div class="featured--buttons">
+                                <a href="#" class="featured--btn">Request Info</a>
+                                <a href="#" class="featured--btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="agents" id="agents">
+            <div class="container">
+
+                <h2 class="agents__heading">Professional Agents</h2>
+
+                <button class="slider--btn prev" id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="slider--btn next" id="next"><i class="fa-solid fa-angle-right"></i></button>
+
+                <div class="box__container carousel">
+
+                    <div class="box">
+
+                        <img src="images/agent1.png" alt="agent 1" class="box__image" draggable="false">
+                        <div class="box__text">
+                            <h2 class="bg--text">JB</h2>
+                            <h3 class="agents--name">James Blue</h3>
+                        </div>
+
+                        <div class="agents--contacts">
+                            <a href="#" class="fas fa-envelope"></a>
+                            <a href="#" class="fas fa-phone"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                        </div>
+
+                        <h3 class="job--title">Real Estate Agent</h3>
+
+                    </div>
+
+                    <div class="box">
+
+                        <img src="images/agent2.png" alt="agent 2" class="box__image" draggable="false">
+                        <div class="box__text">
+                            <h2 class="bg--text">ST</h2>
+                            <h3 class="agents--name">Sophia Tan</h3>
+                        </div>
+
+                        <div class="agents--contacts">
+                            <a href="#" class="fas fa-envelope"></a>
+                            <a href="#" class="fas fa-phone"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                        </div>
+
+                        <h3 class="job--title">Real Estate Agent</h3>
+
+                    </div>
+
+                    <div class="box">
+
+                        <img src="images/agent3.png" alt="agent 3" class="box__image" draggable="false">
+                        <div class="box__text">
+                            <h2 class="bg--text">CJ</h2>
+                            <h3 class="agents--name">Cathy Jones</h3>
+                        </div>
+
+                        <div class="agents--contacts">
+                            <a href="#" class="fas fa-envelope"></a>
+                            <a href="#" class="fas fa-phone"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                        </div>
+
+                        <h3 class="job--title">Real Estate Agent</h3>
+
+                    </div>
+
+                    <div class="box">
+
+                        <img src="images/agent4.png" alt="agent 4" class="box__image" draggable="false">
+                        <div class="box__text">
+                            <h2 class="bg--text">HT</h2>
+                            <h3 class="agents--name">Harry Taylor</h3>
+                        </div>
+
+                        <div class="agents--contacts">
+                            <a href="#" class="fas fa-envelope"></a>
+                            <a href="#" class="fas fa-phone"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                        </div>
+
+                        <h3 class="job--title">Real Estate Agent</h3>
+
+                    </div>
+
+                    <div class="box">
+
+                        <img src="images/agent5.png" alt="agent 5" class="box__image" draggable="false">
+                        <div class="box__text">
+                            <h2 class="bg--text">BW</h2>
+                            <h3 class="agents--name">Billy Wade</h3>
+                        </div>
+
+                        <div class="agents--contacts">
+                            <a href="#" class="fas fa-envelope"></a>
+                            <a href="#" class="fas fa-phone"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                        </div>
+
+                        <h3 class="job--title">Real Estate Agent</h3>
+
+                    </div>
+
+                    <div class="box">
+
+                        <img src="images/agent6.png" alt="agent 6" class="box__image" draggable="false">
+                        <div class="box__text">
+                            <h2 class="bg--text">AG</h2>
+                            <h3 class="agents--name">Anna Garcia</h3>
+                        </div>
+
+                        <div class="agents--contacts">
+                            <a href="#" class="fas fa-envelope"></a>
+                            <a href="#" class="fas fa-phone"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                        </div>
+
+                        <h3 class="job--title">Real Estate Agent</h3>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+
+                <h2 class="contact__heading">Contact Us</h2>
+
+                <div class="icon--container">
+
+                    <div class="icon">
+                        <img src="images/icon-1.png" alt="icon 1" class="icon__image">
+                        <h3>Phone Number</h3>
+                        <div class="numbers">
+                            <p>+123-456-7890</p>
+                            <p>+123-321-1230</p>
+                        </div>
+                    </div>
+
+                    <div class="icon">
+                        <img src="images/icon-2.png" alt="icon 2" class="icon__image">
+                        <h3>Email Address</h3>
+                        <div class="emails">
+                            <p>company@info.com</p>
+                            <p>yourcompany@info.com</p>
+                        </div>
+                    </div>
+
+                    <div class="icon">
+                        <img src="images/icon-3.png" alt="icon 2" class="icon__image">
+                        <h3>Office Address</h3>
+                        <div class="address">
+                            <p>Brooklyn</p>
+                            <p>New York, USA</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <form action="">
+                        <div class="inputBox">
+                            <input type="text" placeholder="Name">
+                            <input type="number" placeholder="Number">
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <textarea placeholder="Message"></textarea>
+                        <input class="contact__btn" type="button" value="Send Message">
+                    </form>
+
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96873.7483307117!2d-74.02739782527672!3d40.6452147155032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C%20NY%2C%20USA!5e0!3m2!1sen!2sph!4v1715174428853!5m2!1sen!2sph"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="box--container">
+                <div class="box">
+                    <p>Copyright © 2024. All Rights Reserved</p>
+                </div>
+
+                <div class="box">
+                    <div class="social">
+                        <p>Follow</p>
+                        <div class="social--icon">
+                            <a href="#" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+</body>
+
+</html>
