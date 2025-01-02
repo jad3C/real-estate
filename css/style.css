@@ -275,7 +275,7 @@ p {
 .hero__btn {
   border: none;
   background-color: #ffcfb3;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   cursor: pointer;
   font-size: 1.3rem;
   padding: 0.7em;
@@ -376,7 +376,7 @@ section.services {
 .services .box__btn {
   border: none;
   background-color: #ffcfb3;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   cursor: pointer;
   font-size: 1.1rem;
   padding: 0.7em 2em;
@@ -538,7 +538,7 @@ section.services {
 .featured--buttons a {
   border: none;
   background-color: #ffcfb3;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   cursor: pointer;
   font-size: 1rem;
   padding: 0.7em 1.2em;
@@ -740,7 +740,7 @@ section.agents {
 .contact__btn {
   border: none;
   background-color: #ffcfb3;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   cursor: pointer;
   font-size: 1rem;
   padding: 0.7em 1.2em;
